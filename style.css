@@ -1,0 +1,62 @@
+h2 {
+    font-family: 'MonteCarlo', cursive;
+    font-size: 8rem;
+    color: slategray;
+    font-weight: 300;
+}
+
+body {
+    background-color: black;
+    
+}
+
+button {
+    background-color: orangered;
+    font-family: 'Bungee', cursive;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 3rem;
+    padding: 20px;
+    
+}
+
+button:hover {
+    cursor: grab;
+    background-color: orange;
+}
+
+#next, #nextOne, #restart {
+    margin-top: 500px;
+    margin-left: 100px;
+    padding: 0 20px;
+    font-size: 2rem;
+}
+
+#restart {
+    min-width: 300px;
+}
+
+.name {
+    margin-left: 900px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+#inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./resources/HD3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height:800px;
+}
+
+
+
